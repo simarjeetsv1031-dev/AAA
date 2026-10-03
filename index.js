@@ -10,8 +10,8 @@ http.createServer((req, res) => {
 });
 
 const config = {
-  host: process.env.MC_HOST || 'Amadeusjin.aternos.me',
-  port: parseInt(process.env.MC_PORT) || 30453,
+  host: process.env.MC_HOST || '157.90.5.77',
+  port: parseInt(process.env.MC_PORT) || 11160,
   username: process.env.MC_USERNAME || 'AFKBot',
   offline: false,
   profilesFolder: './auth',
